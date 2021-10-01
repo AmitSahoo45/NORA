@@ -205,6 +205,14 @@
     .bs-txt {
         height: 130px;
     }
+
+    .home-banner-1 {
+        background-position-x: center;
+    }
+
+    .home-banner-2 {
+        background-position-x: center;
+    }
 }
 
 @media (max-width: 590px) and (min-width: 100px) {
@@ -249,6 +257,14 @@
     .content {
         padding: 0rem 1rem;
     }
+
+    .home-banner-1 {
+        background-position-x: center;
+    }
+
+    .home-banner-2 {
+        background-position-x: center;
+    }
 }
 
 @media (max-width: 445px) and (min-width: 100px) {
@@ -273,6 +289,10 @@
     #menuToggle span {
         width: 25px;
         height: 3px;
+    }
+
+    .bs-header ul{
+        flex-wrap: wrap;
     }
 
     .mainbox h2 {
@@ -318,6 +338,11 @@
         margin: 0%;
         text-align: center;
     }
+
+    .home-banner-1 {
+        background-position-x: center;
+    }
+
 }
 
 @media (max-width: 350px) and (min-width: 100px) {
@@ -339,4 +364,8 @@
     }
 }
 
-@media (max-width: 340px) and (min-width: 100px) {}
+@media (max-width: 340px) and (min-width: 100px) {
+    .bs-header ul{
+        flex-wrap: wrap;
+    }
+}
