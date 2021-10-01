@@ -1,0 +1,342 @@
+:root {
+    --light-yellow: #fff2ce;
+    --color-1: #D0AA97;
+    --color-2: #714C46;
+    --color-3: #AE5F4D;
+    --color-4: #F8F0F0;
+    --color-5: #944132;
+}
+
+@media (max-width: 1150px) and (min-width: 100px) {
+    .logo {
+        font-size: 1.2rem;
+        margin-right: 2rem;
+    }
+
+    .shopping {
+        padding: 0rem 3rem 0rem 0rem;
+    }
+
+    .desk-menu ul li {
+        font-size: 0.8rem;
+    }
+
+    .bs-products {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .ld-hd-txt h1 {
+        font-size: 3rem;
+    }
+
+    .product {
+        margin: 1rem 1rem;
+    }
+
+    .content h1 {
+        color: var(--color-1);
+    }
+
+    .content h1 span.text-pink {
+        font-weight: bolder;
+    }
+
+    .content p {
+        color: #fff;
+        font-size: 1rem;
+    }
+
+    .btn {
+        margin: 0.5rem 0rem;
+    }
+
+    .pdt-ring div {
+        background-color: #fff;
+    }
+
+    .ldp-left a i {
+        bottom: 20px;
+        right: 5px;
+    }
+
+    .home-banner-1 {
+        background-position-x: center;
+    }
+
+    .form-group button {
+        box-shadow: none;
+    }
+
+    .container {
+        padding: 0px 5rem;
+    }
+
+    .home-banner-2 {
+        background-position-y: -3rem;
+    }
+
+    .cat-link {
+        margin: 0rem 0.5rem;
+    }
+
+    .call-det {
+        margin: 0rem 0.5rem;
+    }
+
+    .ft-header {
+        flex-wrap: wrap;
+    }
+
+    .ft-header h2 {
+        margin: 0rem 0.5rem;
+    }
+
+    .links {
+        flex-wrap: wrap;
+    }
+
+    .payments,
+    .social {
+        margin: 0rem 0.5rem;
+    }
+
+}
+
+@media (max-width: 800px) and (min-width: 100px) {
+    .desk-menu {
+        display: none;
+    }
+
+    #menuToggle {
+        display: block;
+        top: 2px;
+    }
+
+    .shopping {
+        padding: 0rem;
+    }
+
+    .logo {
+        margin: 0%;
+    }
+
+    .call-det {
+        text-align: center;
+    }
+}
+
+@media (max-width: 575px) and (min-width: 100px) {
+    .cat-link h3 {
+        text-align: center;
+    }
+
+    .cat-link ul li {
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 770px) and (min-width: 100px) {
+    .ldp-left {
+        position: absolute;
+        left: 34vw;
+        top: 30vh;
+        background-color: #d0aa9700;
+    }
+
+    .ldp-right {
+        width: 100vw;
+    }
+
+    .ld-hd-txt {
+        padding: 3rem 0rem 3rem 0rem;
+        width: 390px;
+        border-radius: 4px;
+        text-align: center;
+        background-color: #d0aa975d;
+        color: #fff;
+    }
+
+    .ld-hd-txt h1 {
+        font-size: 2.2rem;
+    }
+
+    .ld-hd-txt p {
+        width: 250px;
+        margin: auto;
+        padding: 0rem 0rem 2rem 0rem;
+    }
+
+    .pdt-ring {
+        display: none;
+    }
+
+    .btn {
+        font-size: 0.8rem;
+        width: 140px;
+    }
+
+    .home-banner-1 {
+        background-position-x: center;
+    }
+
+    .bs-header h2 {
+        font-size: 1.2rem;
+    }
+
+    .bs-header ul li a {
+        font-size: 0.9rem;
+        margin: 0rem 0.5rem;
+    }
+
+    .home-banner-2 {
+        background-position-y: 0;
+    }
+
+    .product {
+        width: 230px;
+    }
+
+    .image {
+        width: 230px;
+    }
+
+    .bs-txt {
+        height: 130px;
+    }
+}
+
+@media (max-width: 590px) and (min-width: 100px) {
+    .shopping i {
+        margin: 0 0.7rem;
+    }
+
+    .logo h1 {
+        margin-left: 3rem;
+    }
+
+    .bs-header {
+        flex-direction: column;
+    }
+
+    .bs-header h2 {
+        font-size: 1.4rem;
+        margin: 1rem 0;
+    }
+
+    .container {
+        padding: 0px 2rem;
+    }
+
+    .product {
+        width: 250px;
+    }
+
+    .image {
+        width: 250px;
+    }
+
+    .bs-txt {
+        height: 130px;
+    }
+
+    .bs-header ul li a {
+        font-size: 0.8rem;
+        margin: 0rem 0.4rem;
+    }
+
+    .content {
+        padding: 0rem 1rem;
+    }
+}
+
+@media (max-width: 445px) and (min-width: 100px) {
+
+    html {
+        overflow-x: hidden;
+    }
+
+    .shopping i {
+        font-size: 1rem;
+        margin: 0 0.5rem;
+    }
+
+    .ld-hd-txt {
+        width: 300px
+    }
+
+    .logo h1 {
+        font-size: 2rem;
+    }
+
+    #menuToggle span {
+        width: 25px;
+        height: 3px;
+    }
+
+    .mainbox h2 {
+        font-size: 1.5rem;
+        letter-spacing: 0.8rem;
+        margin: 1rem 0rem;
+    }
+
+    .parent-box {
+        margin: 0rem;
+    }
+
+    .home-banner-2 {
+        background-position-x: center;
+    }
+
+    .content h1 {
+        text-align: center;
+        margin: 10px;
+        font-size: 1.9rem;
+        width: 300px;
+    }
+
+    .container {
+        padding: 0px 0rem;
+    }
+
+    .links {
+        flex-direction: column;
+    }
+
+    .cat-link h3,
+    .cat-link ul li {
+        text-align: left;
+    }
+
+    .ft-header h1 {
+        margin: 1.5rem 0rem;
+    }
+
+    .call-det {
+        width: 100%;
+        margin: 0%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 350px) and (min-width: 100px) {
+    .home-banner-2 {
+        background-position-x: center;
+    }
+
+    #menuToggle {
+        left: 20px;
+        top: 0px;
+    }
+
+    .logo h1 {
+        margin-left: 2rem;
+    }
+
+    .bs-header ul {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 340px) and (min-width: 100px) {}

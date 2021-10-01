@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Poppins:wght@200;300;400;500&family=Tangerine&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2fd2b74342.js" crossorigin="anonymous"></script>
+    <title>Shining Diva | Ratna Bhandar</title>
+    <style>
+        /* UNIVERSAL SETTINGS */
+        :root {
+            --light-yellow: #fff2ce;
+            --color-1: #D0AA97;
+            --color-2: #714C46;
+            --color-3: #AE5F4D;
+            --color-4: #F8F0F0;
+            --color-5: #944132;
+            --color-6: #fffffa;
+            --monsterrat: 'Montserrat', sans-serif;
+        }
+
+        .hvr-effect {
+            color: #000;
+        }
+
+        .hvr-effect:hover {
+            color: var(--color-5);
+        }
+
+        * {
+            padding: 0%;
+            margin: 0%;
+            box-sizing: border-box;
+            transition: all 0.2s linear;
+            color: black;
+        }
+
+        html {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            scroll-behavior: smooth;
+            background-color: #f7efef;
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+            font-family: var(--monsterrat);
+        }
+
+        body::-webkit-scrollbar {
+            display: none;
+        }
+
+        body {
+            overflow-x: hidden;
+        }
+
+        a {
+            text-decoration: none;
+            cursor: pointer;
+            font-size: 1rem;
+        }
+
+        ul {
+            list-style-type: none;
+        }
+
+        li {
+            list-style-type: none;
+        }
+
+        ::selection {
+            background-color: var(--color-2);
+            color: white;
+        }
+
+        .product-cont-main {
+            display: flex;
+            flex-direction: column;
+            margin-top: 5rem;
+            background-color: #fffffa;
+        }
+
+        .card {
+            width: 720px;
+            position: absolute;
+            background: white;
+            margin: 0 auto;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+            transition: all 0.3s;
+        }
+
+        .card:hover {
+            box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+
+        .card nav {
+            width: 100%;
+            color: #727272;
+            text-transform: uppercase;
+            padding: 20px;
+            border-bottom: 2px solid #efefef;
+            font-size: 12px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .card nav svg.heart {
+            height: 24px;
+            width: 24px;
+            float: right;
+            margin-top: -3px;
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+
+        .card nav svg.heart:hover {
+            fill: red;
+        }
+
+        .card nav a {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+        }
+
+        .card nav svg.arrow {
+            float: left;
+            height: 15px;
+            width: 15px;
+            margin-right: 10px;
+            font-size: 1rem;
+        }
+
+        .card .photo {
+            padding: 30px;
+            width: 45%;
+            text-align: center;
+            float: left;
+        }
+
+        .card .photo img {
+            max-height: 100%;
+            max-width: 100%;
+            border-right: 2px solid rgba(0, 0, 0, 0.164);
+            padding-right: 30px;
+        }
+
+        .card .description {
+            padding: 30px;
+            float: left;
+            width: 55%;
+        }
+
+        .card .description h1 {
+            color: #515151;
+            font-weight: 300;
+            padding-top: 15px;
+            margin: 0;
+            font-size: 30px;
+            font-weight: 300;
+        }
+
+        .card .description h2 {
+            color: #515151;
+            margin: 0;
+            text-transform: uppercase;
+            font-weight: 500;
+        }
+
+        .card .description h4 {
+            margin: 0;
+            color: #727272;
+            text-transform: uppercase;
+            font-weight: 500;
+            font-size: 12px;
+        }
+
+        .card .description p {
+            font-size: 12px;
+            line-height: 20px;
+            color: #727272;
+            padding: 20px 0;
+            margin: 0;
+        }
+
+        .card .description button {
+            outline: 0;
+            border: 0;
+            background: none;
+            border: 1px solid #d9d9d9;
+            padding: 8px 0px;
+            margin-bottom: 30px;
+            color: #515151;
+            text-transform: uppercase;
+            width: 125px;
+            font-family: inherit;
+            margin-right: 5px;
+            transition: all 0.3s ease;
+            font-weight: 500;
+        }
+
+        .card .description button:hover {
+            border: 1px solid var(--color-5);
+            color: var(--color-3);
+            cursor: pointer;
+        }
+
+        @media (max-width:750px) and (min-width: 100px) {
+            .card {
+                width: 500px;
+            }
+        }
+
+        @media (max-width:550px) and (min-width: 100px) {
+            .card {
+                width: 400px;
+                display: flex;
+                flex-direction: column;
+                margin: 11rem 0rem;
+            }
+
+            .card .description {
+                padding: 10px;
+                width: 100%;
+            }
+
+            .cont {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+            }
+
+            .card .photo {
+                padding: 0px;
+                width: 100%;
+            }
+
+            .card .photo img {
+                border: 0px;
+                padding-right: 30px;
+            }
+
+            .card .description button {
+                width: 150px;
+            }
+        }
+
+        @media (max-width:430px) and (min-width: 100px) {
+            .card {
+                width: 280px;
+                display: flex;
+                flex-direction: column;
+                margin: 6rem 0rem;
+            }
+
+            .card .description button {
+                width: 100px;
+            }
+
+            .card .description {
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="product-cont-main">
+        <div class="card">
+            <nav>
+                <a href="/index.html" class="hvr-effect"><svg class="arrow" version="1.1" viewBox="0 0 512 512"
+                        width="512px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <polygon points="352,115.4 331.3,96 160,256 331.3,416 352,396.7 201.5,256 " stroke="#727272" />
+                    </svg>
+                    Back to Website</a>
+                <svg class="heart" version="1.1" viewBox="0 0 512 512" width="512px" xml:space="preserve"
+                    stroke="#727272" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <path
+                        d="M340.8,98.4c50.7,0,91.9,41.3,91.9,92.3c0,26.2-10.9,49.8-28.3,66.6L256,407.1L105,254.6c-15.8-16.6-25.6-39.1-25.6-63.9  c0-51,41.1-92.3,91.9-92.3c38.2,0,70.9,23.4,84.8,56.8C269.8,121.9,302.6,98.4,340.8,98.4 M340.8,83C307,83,276,98.8,256,124.8  c-20-26-51-41.8-84.8-41.8C112.1,83,64,131.3,64,190.7c0,27.9,10.6,54.4,29.9,74.6L245.1,418l10.9,11l10.9-11l148.3-149.8  c21-20.3,32.8-47.9,32.8-77.5C448,131.3,399.9,83,340.8,83L340.8,83z"
+                        stroke="#727272" />
+                </svg>
+            </nav>
+            <div class="cont">
+                <div class="photo">
+                    <img src="/images/necklace-promo.webp">
+                </div>
+                <div class="description">
+                    <h2>Shining Diva</h2>
+                    <h4>Gold-Plated Layered Necklace</h4>
+                    <h1>Rs. 349</h1>
+                    <p>Gold-Toned necklace <br>
+                        Material: Metal<br>
+                        Closure: Lobster Closure</p>
+                    <button>Add to Cart</button>
+                    <button>Wishlist</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
