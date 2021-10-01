@@ -368,7 +368,7 @@ header {
     font-family: 'Tangerine', cursive;
     letter-spacing: 2px;
     margin-bottom: 0.5rem;
-    /* color: #fff; */
+    padding-right: 0.3rem;
 }
 
 .ld-hd-txt p {
