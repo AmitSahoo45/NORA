@@ -8,26 +8,9 @@
 }
 
 @media (max-width: 1150px) and (min-width: 100px) {
-    .logo {
-        font-size: 1.2rem;
-        margin-right: 2rem;
-    }
-
-    .shopping {
-        padding: 0rem 3rem 0rem 0rem;
-    }
-
-    .desk-menu ul li {
-        font-size: 0.8rem;
-    }
-
     .bs-products {
         flex-wrap: wrap;
         justify-content: space-around;
-    }
-
-    .ld-hd-txt h1 {
-        font-size: 3rem;
     }
 
     .product {
@@ -50,16 +33,6 @@
     .btn {
         margin: 0.5rem 0rem;
     }
-
-    .pdt-ring div {
-        background-color: #fff;
-    }
-
-    .ldp-left a i {
-        bottom: 20px;
-        right: 5px;
-    }
-
     .home-banner-1 {
         background-position-x: center;
     }
@@ -104,23 +77,6 @@
 }
 
 @media (max-width: 800px) and (min-width: 100px) {
-    .desk-menu {
-        display: none;
-    }
-
-    #menuToggle {
-        display: block;
-        top: 2px;
-    }
-
-    .shopping {
-        padding: 0rem;
-    }
-
-    .logo {
-        margin: 0%;
-    }
-
     .call-det {
         text-align: center;
     }
@@ -138,40 +94,6 @@
 }
 
 @media (max-width: 770px) and (min-width: 100px) {
-    .ldp-left {
-        position: absolute;
-        left: 34vw;
-        top: 30vh;
-        background-color: #d0aa9700;
-    }
-
-    .ldp-right {
-        width: 100vw;
-    }
-
-    .ld-hd-txt {
-        padding: 3rem 0rem 3rem 0rem;
-        width: 390px;
-        border-radius: 4px;
-        text-align: center;
-        background-color: #d0aa975d;
-        color: #fff;
-    }
-
-    .ld-hd-txt h1 {
-        font-size: 2.2rem;
-    }
-
-    .ld-hd-txt p {
-        width: 250px;
-        margin: auto;
-        padding: 0rem 0rem 2rem 0rem;
-    }
-
-    .pdt-ring {
-        display: none;
-    }
-
     .btn {
         font-size: 0.8rem;
         width: 140px;
@@ -216,14 +138,6 @@
 }
 
 @media (max-width: 590px) and (min-width: 100px) {
-    .shopping i {
-        margin: 0 0.7rem;
-    }
-
-    .logo h1 {
-        margin-left: 3rem;
-    }
-
     .bs-header {
         flex-direction: column;
     }
@@ -271,24 +185,6 @@
 
     html {
         overflow-x: hidden;
-    }
-
-    .shopping i {
-        font-size: 1rem;
-        margin: 0 0.5rem;
-    }
-
-    .ld-hd-txt {
-        width: 300px
-    }
-
-    .logo h1 {
-        font-size: 2rem;
-    }
-
-    #menuToggle span {
-        width: 25px;
-        height: 3px;
     }
 
     .bs-header ul{
@@ -348,15 +244,6 @@
 @media (max-width: 350px) and (min-width: 100px) {
     .home-banner-2 {
         background-position-x: center;
-    }
-
-    #menuToggle {
-        left: 20px;
-        top: 0px;
-    }
-
-    .logo h1 {
-        margin-left: 2rem;
     }
 
     .bs-header ul {

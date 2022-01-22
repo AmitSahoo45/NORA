@@ -36,3 +36,4 @@ btn.addEventListener('click', e => {
         textErrorEl.innerText = 'Thank you for subscribing to our newsletter.';
     }
 });
+
