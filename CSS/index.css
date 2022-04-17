@@ -173,7 +173,7 @@ nav ul li {
 
 .text_left {
     width: 200px;
-    margin: 0 4rem 0 0;
+    margin: 0 2rem 0 0;
 }
 
 .heading {
@@ -190,7 +190,7 @@ nav ul li {
 
 .text_right {
     width: 200px;
-    margin: 0 0 0 4rem;
+    margin: 0 0 0 2rem;
     text-align: right;
     font-family: 'Gayathri', sans-serif;
 }

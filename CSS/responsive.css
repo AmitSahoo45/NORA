@@ -7,7 +7,7 @@
     --color-5: #944132;
 }
 
-@media (max-width: 1150px) and (min-width: 100px) {
+@media (max-width: 1150px) {
     .bs-products {
         flex-wrap: wrap;
         justify-content: space-around;
@@ -33,6 +33,7 @@
     .btn {
         margin: 0.5rem 0rem;
     }
+
     .home-banner-1 {
         background-position-x: center;
     }
@@ -76,8 +77,50 @@
 
 }
 
-@media (max-width: 800px) and (min-width: 100px) {
-    .call-det {
+@media screen and (max-width:938px) {
+    .social {
+        display: none;
+    }
+}
+
+@media (max-width: 840px) and (min-width: 100px) {
+    .text_left {
+        width: 80%;
+        margin: 0;
+    }
+
+    .model_name {
+        left: -3rem;
+    }
+
+    .heading {
+        text-align: center;
+    }
+
+    .ld__content {
+        flex-direction: column;
+    }
+
+    .landing_model {
+        bottom: 0px;
+    }
+
+    .cave__style_1 {
+        bottom: 3.5rem;
+    }
+
+    .text_right {
+        width: 80%;
+        margin: 0;
+    }
+
+    .text_right h3 {
+        text-align: center;
+        margin: 1rem 0 1rem 0;
+    }
+
+    .text_right p {
+        padding: 0;
         text-align: center;
     }
 }
@@ -181,14 +224,27 @@
     }
 }
 
-@media (max-width: 445px) and (min-width: 100px) {
+@media (max-width: 445px) {
 
     html {
         overflow-x: hidden;
     }
 
-    .bs-header ul{
+    .bs-header ul {
         flex-wrap: wrap;
+    }
+
+    .mimgtxt{
+        margin: 1rem 0;
+    }
+
+    .landing_model {
+        width: 300px;
+    }
+
+    .cave__style_1 {
+        bottom: 0.6rem;
+        width: 300px;
     }
 
     .mainbox h2 {
@@ -239,6 +295,10 @@
         background-position-x: center;
     }
 
+    .model_name {
+        left: -1rem;
+    }
+
 }
 
 @media (max-width: 350px) and (min-width: 100px) {
@@ -249,10 +309,11 @@
     .bs-header ul {
         flex-wrap: wrap;
     }
+
 }
 
 @media (max-width: 340px) and (min-width: 100px) {
-    .bs-header ul{
+    .bs-header ul {
         flex-wrap: wrap;
     }
 }
